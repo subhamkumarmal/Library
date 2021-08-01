@@ -1,0 +1,48 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url("http://images.unsplash.com/photo-1522865080725-2a9ea1fcb94e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 97vh;
+}
+
+.insideclass{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: cadetblue;
+    border-radius: 20px;
+    width: 700px;
+    padding-left: 30px;
+    box-shadow: 0 4px 6px white;
+    text-transform: capitalize;
+}
+.inbtn{
+    margin-bottom: 10px;
+}
+.inpay{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+.paybtn{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.samespane{
+    color:white;
+    padding-right: 10px;
+}
+

@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Great+Vibes&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url('../imgs/librarybg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url('../imgs/librarybg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.contactlink{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 2rem;
+    padding-bottom: 0;
+}
+
+
+
+.contactlink ul{
+    margin-top: 3px;
+    width: 15%;
+    height: auto;
+    /*background-color: white;*/
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+
+
+
+
+
+}
+
+.contactlink ul li{
+margin:0
+
+}
+ul {
+    margin: 0;
+    color: white;
+}
+
+.fa{
+    font-size: 18px;
+    color: white;
+    padding-right: 10px;
+
+}
+
+/**************NAVLINK*********************/
+
+.container{
+    margin-top: 10px;
+    position: relative;
+    /*background-color: pink;*/
+}
+
+.navarea{
+    line-height: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.educations{
+    color: hotpink;
+    font-family: 'Great Vibes', cursive;
+    letter-spacing: 2px;
+    font-size: 25px;
+    padding-top: 7px;
+
+}
+
+#eduimg{
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    padding-right: 10px;
+}
+
+.navarea .navlinks {
+    width: 30%;
+}
+.navarea .navlinks ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-transform: uppercase;
+}
+.navarea .navlinks ul li{
+   font-family: 'Archivo Black', sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+    transition: .5s linear;
+    text-decoration: none;
+
+}
+
+.navarea .navlinks ul li:hover{
+    transform: scale(1.2);
+    /*border-bottom: 1px solid white;*/
+    cursor: pointer;
+    color:hotpink;
+}
+
+/*----------3rd------------*/
+
+.main-area{
+    /*background-color: pink;*/
+    margin-top: 60px;
+    position: absolute;
+    top:0;
+    left:15%;
+    transform: translate(0%,-15%);
+}
+
+.pretext{
+    color: white;
+   font-family: 'Rye', cursive;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-size: 20px;
+
+}
+
+.prah{
+    color: hotpink;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    padding:0;
+    bottom: 0;
+
+}
+
+.bton1{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border:none;
+    outline: none;
+    background-color: goldenrod;
+    transition: .5s  ease-in-out;
+
+}
+
+#bton1a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    /*transition: .5s linear;*/
+}
+
+.bton1:hover{
+    background:transparent;
+    border: 2px solid white;
+}
+
+#bton1a:hover{
+    color: white;
+}
+
+
+
+/*-----------footer------------------------*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),transparent;
+  color: white;
+  text-align: center;
+}
+
+
+.same-a{
+    color: white;
+    text-decoration: none;
+}
+
+.same-a:hover{
+color: hotpink;
+    border-bottom: 1px solid hotpink;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'library/css/recipt.css' %}">
+</head>
+<body>
+
+        {% if params %}
+        {% for i in params%}
+
+        <div class="mainclass">
+            <div class="insideclass">
+                <h3><span class="samespane">student name :</span>{{i.taker_name}}</h3>
+                <h3><span class="samespane">address :</span>{{i.taker_add}}</h3>
+                <h3><span class="samespane">bookid :</span>{{i.book_id}}</h3>
+                <h3><span class="samespane">book name :</span>{{i.book_name}}</h3>
+                <h3><span class="samespane">book data :</span>{{i.book_issue_data}}</h3>
+                <h3><span class="samespane">phone no :</span>{{i.labrary_member}}</h3>
+                {% if amounts %}
+                <h3>The Student have to pay <span class="samespane">{{amounts}}</span>/- Rs</h3>
+                <div class="inbtn">
+                <input class="inpay" type="text" placeholder="pay" name="pay"  required><button class="paybtn" type="button" value="button"><a class="apay" href="/library/delete/{{i.book_id}}">Pay</a></button>
+                </div>
+                {% else %}
+                <h3>Student do not have to pay money as he/she is on the time.</h3>
+                {% endif %}
+            </div>
+        </div>
+
+        {% endfor %}
+
+        {% else %}
+        {% endif %}
+
+</body>
+</html>
